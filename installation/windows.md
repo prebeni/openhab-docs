@@ -108,6 +108,7 @@ By installing the openHAB process as a service in Windows, you can:
 
     - Copy all the config text from the below section and paste it in your `openHAB2-wrapper.conf`, replacing all existing content.
     - Adapt the first entry (`OPENHAB_HOME`) to match your openHAB installation directory.
+    - Adapt the second entry (`JAVA_HOME`) to match your Java installation directory.
 
     ```conf
     #*******************************************************
@@ -116,6 +117,7 @@ By installing the openHAB process as a service in Windows, you can:
 
     # openHAB installation dir (Adapt this first setting to your system)
     set.default.OPENHAB_HOME=C:\openHAB2
+    set.default.JAVA_HOME=C:\Program Files\Zulu\zulu-8\
 
     # Wrapper Properties
     set.default.OPENHAB_CONF=%OPENHAB_HOME%\conf
